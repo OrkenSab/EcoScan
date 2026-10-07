@@ -1,0 +1,86 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="260dp"
+    android:height="200dp"
+    android:viewportWidth="260"
+    android:viewportHeight="200">
+
+    <!-- Industrial Clouds Background -->
+    <path
+        android:fillColor="#B0BEC5"
+        android:pathData="M88,118 C80,105 82,88 95,82 C98,66 116,58 132,64 C144,52 164,56 170,72 C180,78 182,96 174,118 Z" />
+
+    <!-- City Buildings Silhouette -->
+    <!-- Left building step 1 -->
+    <path
+        android:fillColor="#607D8B"
+        android:pathData="M92,142 L92,112 L106,112 L106,142 Z" />
+    <!-- Left building step 2 -->
+    <path
+        android:fillColor="#607D8B"
+        android:pathData="M106,142 L106,96 L122,96 L122,142 Z" />
+    <!-- Center Skyscraper -->
+    <path
+        android:fillColor="#607D8B"
+        android:pathData="M122,142 L122,76 L138,76 L138,142 Z" />
+    <!-- Tower Spire / Antenna -->
+    <path
+        android:fillColor="#607D8B"
+        android:strokeColor="#607D8B"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M130,76 L130,52" />
+    <!-- Right building -->
+    <path
+        android:fillColor="#607D8B"
+        android:pathData="M138,142 L138,92 L154,92 L154,142 Z" />
+
+    <!-- Green Eco Leaf in Foreground -->
+    <path
+        android:fillColor="#22C55E"
+        android:pathData="M124,144 C116,118 136,96 170,92 C174,124 156,146 124,144 Z" />
+    <!-- White Leaf Vein -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M127,140 C140,128 152,114 166,96" />
+
+    <!-- 4 Viewfinder Rounded Brackets -->
+    <!-- Top-Left Bracket -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#22C55E"
+        android:strokeWidth="15"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M70,72 L70,54 A16,16 0 0,1 86,38 L104,38" />
+
+    <!-- Top-Right Bracket -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#22C55E"
+        android:strokeWidth="15"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M156,38 L174,38 A16,16 0 0,1 190,54 L190,72" />
+
+    <!-- Bottom-Left Bracket -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#22C55E"
+        android:strokeWidth="15"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M70,126 L70,144 A16,16 0 0,0 86,160 L104,160" />
+
+    <!-- Bottom-Right Bracket -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#22C55E"
+        android:strokeWidth="15"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M156,160 L174,160 A16,16 0 0,0 190,144 L190,126" />
+
+</vector>
